@@ -43,5 +43,5 @@ The repository is about 700 MB, mostly 3D models. A shallow clone saves
 time and space:
 
 ```sh
-git clone --depth 1 https://github.com/behshadnorouzi/Altium-Designer-Libraries.git
+git clone --depth 1 https://github.com/behshadnorouzi/altium-designer-libraries.git
 ```
