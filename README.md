@@ -13,14 +13,20 @@ original authors listed below, and each library keeps its own license.
 | Library | Format | Author / source | License |
 |---------|--------|-----------------|---------|
 | [`libraries/altium-lib`](libraries/altium-lib) | Source (`.SchLib`, `.PcbLib`, `.LibPkg`) + compiled `.IntLib` + 3D STEP models | Lucas Hudson, [lucashudson-eng/altium-lib](https://github.com/lucashudson-eng/altium-lib) | [GPL-3.0](libraries/altium-lib/LICENSE) |
-| `libraries/Altium.IntLib` | Integrated library | Not recorded | Unknown |
-| `libraries/AltiumLib1.IntLib` | Integrated library | Not recorded | Unknown |
-| `libraries/AMINLIB.IntLib` | Integrated library | Not recorded | Unknown |
-| `libraries/Sajad_Altium_Library.IntLib` | Integrated library | Not recorded | Unknown |
+| `libraries/altium.IntLib` | Integrated library | Not recorded | Unknown |
+| `libraries/altium-lib-1.IntLib` | Integrated library | Not recorded | Unknown |
+| `libraries/amin-lib.IntLib` | Integrated library | Not recorded | Unknown |
+| `libraries/sajad-altium-library.IntLib` | Integrated library | Not recorded | Unknown |
 
-`altium-lib` is a snapshot from October 2024. Check the upstream repository
-for newer parts. Its own [README](libraries/altium-lib/README.md) lists every
-component by category.
+The four standalone libraries were renamed to lowercase for consistency.
+They were originally distributed as `Altium.IntLib`, `AltiumLib1.IntLib`,
+`AMINLIB.IntLib` and `Sajad_Altium_Library.IntLib`.
+
+`altium-lib` is a snapshot from October 2024, kept exactly as published
+upstream: its `.LibPkg` and `.PcbLib` files refer to the other files by
+name, so the folder and file names inside it are left unchanged. Check the
+upstream repository for newer parts. Its own
+[README](libraries/altium-lib/README.md) lists every component by category.
 
 If you are the author of one of the unattributed libraries, open an issue and
 I will add proper credit or remove the file.
